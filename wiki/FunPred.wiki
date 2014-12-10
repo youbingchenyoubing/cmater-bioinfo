@@ -1,19 +1,7 @@
-==FunPred-1: Protein Function Prediction from Protein Interaction Network Using Neighborhood Analysis==
+=Read Me for FunPred 1 tool=
 
-===Sovan Saha ^1^, Piyali Chatterjee ^2^, Subhadip Basu ^3^, Mahantapas Kundu ^3^, Mita Nasipuri ^3^===
+*FunPred 1.1 & FunPred 1.2 *
 
-^1^ Department of Computer Science and Engineering, Dr. Sudhir Chandra Sur Degree Engineering College, Dumdum, Kolkata-700 074, India
+1)Read the "readme.txt" in the folder "FunPred 1.1" 
 
-^2^ Department of Computer Science and Engineering, Netaji Subhash Engineering College,Garia, Kolkata – 700152, India
-
-^3^ Department of Computer Science and Engineering, Jadavpur University, Kolkata – 700032, India
-
-
-*ABSTRACT:*
-Proteins are responsible for all biological activities in a living object. With the advent of genome sequencing projects for different organisms, large amounts of DNA and protein sequence data are now available, whereas their biological functions are still un-annotated in most of the cases. Unknown function of such an un-annotated protein may be derived from its neighbors in a protein interaction network. Two new methods are proposed in this work to predict protein functions from the network neighborhood properties. The first method, FunPred 1.1, uses a combination of three simple-yet-effective scoring techniques: neighborhood ratio, proteins’ path connectivity and relative functional similarity. FunPred 1.2 applies a heuristic approach using edge clustering coefficient to reduce the search space by identifying densely connected neighborhood regions. The overall accuracy achieved in FunPred 1.2 over 8 functional groups involving hetero-interactions in 650 Yeast proteins is around 87%, which is higher than FunPred 1.1 and many of the state-of-the-art protein function prediction methods available in literature. The train-test datasets and the complete source code of the developed software are now freely available at http://code.google.com/p/cmater-bioinfo/.
-
-[https://www.dropbox.com/sh/jvtqanwl887r8rq/AABIQ2HtCMe3PQv3h2YvR4Iea Supplementary Files]
-[https://www.dropbox.com/sh/pwur5qlabaspp65/AAD5CXAyfjs4VqdlxMPe0EUea FunPred-1 Source ]
-
-*Citation:*
-Under revision at Cellular and Molecular Biology Letters: CMBL.
+2)Read the "readme.txt" in the folder "FunPred 1.2" 
