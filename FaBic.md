@@ -1,0 +1,23 @@
+# Read Me for FaBic Tool #
+
+FaBic generates relevant maximal bicluster.
+To run windows executable fabic, we have to execute it in following ways:
+
+fabic inputfile outputfile mnr mnc threshold
+
+where,
+> i)  inputfile is path of input file.
+> ii) outputfile is path of output file.
+> iii)mnr is minimum number of row. Datatype is integer
+> iv) mnc is minimum number of col. Datatype is integer
+> v)  threshold is value of threshold used to binarize the given matrix. Datatype is real number(float)
+
+Input file contains a 2D matrix infollowing format (a,b are any real number values).
+
+> b,b,b,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,b,b,a
+> b,a,b,a,a,a,a,a,a,a,a,a,a,a,a,a,b,a,b,a,a
+
+In output file, 1st line shows Bicluster number 'bc#:',
+> 2nd line shows column number 'c:',
+> 3rd line shows row number 'r:' and
+> 4th line shows total number of columns and rows in that bicluster and so on ....
